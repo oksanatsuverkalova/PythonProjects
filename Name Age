@@ -1,0 +1,14 @@
+name = input('Как Вас зовут?: ')
+print(type(name))
+
+age = input('Сколько Вам лет?: ')
+print(type(age))
+
+#пример ввода
+
+Как Вас зовут?: Leo
+<class 'str'>
+Сколько Вам лет?: 15
+<class 'str'>
+
+Process finished with exit code 0
