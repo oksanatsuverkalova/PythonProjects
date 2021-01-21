@@ -30,3 +30,47 @@ Process finished with exit code 0
 end
 
 Process finished with exit code 0
+
+
+ДОРАБОТАННЫЙ ВАРИАНТ
+
+age = int (input('Введите свой возраст: '))
+
+
+if age < 18 :
+    print('Доступ запрещен')
+    print('Доступ закрыт')
+elif age == 18:
+    print('Вам ровно 18 лет')
+    print('Продолжить')
+else:
+    print('Доступ разрешен')
+
+print('Дальнейшие действия')
+print('end')
+
+#примеры
+
+Введите свой возраст: 11
+Доступ запрещен
+Доступ закрыт
+Дальнейшие действия
+end
+
+Process finished with exit code 0
+
+Введите свой возраст: 18
+Вам ровно 18 лет
+Продолжить
+Дальнейшие действия
+end
+
+Process finished with exit code 0
+
+Введите свой возраст: 67
+Доступ разрешен
+Дальнейшие действия
+end
+
+Process finished with exit code 0
+
